@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+
+}
+
+.col-md-3 {
+
+    margin-left: -45px;
+    height: 90vh;
+    border: 2px solid #bc1a1a;
+    box-shadow: 2px 2px 20px #888888;
+
+
+}
+
+.mydata {
+    cursor: pointer;
+    color: cadetblue;
+}
+
+.mydata:hover {
+    background-color: #A8D1DF;
+}
+
+.col-md-9 {
+    background-color: white;
+    width: 130vh;
+
+}
+
+.image {
+    background-image: url(./asset/sun.png);
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2 {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.bdimage{
+    position: absolute;
+    background-image: url(./asset/to\ do\ list.png);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    left: 300px;
+    top: 100px;
+    opacity: 0.2;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
